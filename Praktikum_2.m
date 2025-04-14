@@ -6,7 +6,7 @@ clear
  l =20;
  lp = p*l;
  disp(lp)
- % disp(lp) untuk menampilkan hasil operasi 
+ %disp(lp) untuk menampilkan hasil operasi 
  
  lp1 = p+1;
  lp2 = p-1;
