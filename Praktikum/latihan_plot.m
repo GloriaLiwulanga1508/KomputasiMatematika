@@ -17,7 +17,7 @@
 % y = (sin(5*pi*x)).^6
 % plot(x,y, 'xc')
 
-%Decreasing 
+% Decreasing 
 % x = [0:0.001:1]
 % y = exp(-2*log(2)*((x-0.1)/0.8).^2).*(sin(5*pi*x)).^6
 % plot(x,y,'diamondm')
@@ -41,20 +41,22 @@
 % meshc(X,Y,f)
 
 %six ham
-x = -1.9:0.1:1.9; %sumbu x
-y = -1.1:0.1:1.1; %sumbu y
-[X,Y] = meshgrid(x,y); %meshgrid itu untuk permukaan
-f = (4-2.1*X.^2+X.^4/3).*X.^2+X.*Y+4*(-1+Y.^2).*Y.^2;
-figure(1)
-plot3(X,Y,f)
-figure(2)
-contour(X,Y,f)
-figure(3)
-contour3(X,Y,f)
-figure(4)
-surf(X,Y,f)
-figure(5)
-surfc(X,Y,f)
-figure(6)
-meshc(X,Y,f)
+% x = -1.9:0.1:1.9; %sumbu x
+% y = -1.1:0.1:1.1; %sumbu y
+% [X,Y] = meshgrid(x,y); %meshgrid itu untuk permukaan
+% f = (4-2.1*X.^2+X.^4/3).*X.^2+X.*Y+4*(-1+Y.^2).*Y.^2;
+% figure(1)
+% plot3(X,Y,f)
+% figure(2)
+% contour(X,Y,f)
+% figure(3)
+% contour3(X,Y,f)
+% figure(4)
+% surf(X,Y,f)
+% figure(5)
+% surfc(X,Y,f)
+% figure(6)
+% meshc(X,Y,f)
+
+
 
